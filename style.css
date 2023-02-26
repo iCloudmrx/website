@@ -166,7 +166,7 @@ padding: 0.6rem 0;
 .design-content {
     margin: 2rem 0;
     display: grid;
-    grid-template-columns: repeat(3 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
 .design-title {
@@ -175,7 +175,7 @@ padding: 0.6rem 0;
     padding: 1rem;
     font-size: 1.2rem;
     text-align: center;
-    width: 70%;
+    width: 90%;
 }
 .design-img {
     position: relative;
@@ -213,5 +213,12 @@ padding: 0.6rem 0;
     z-index: 1;
     font-size: 1.1rem;
     font-weight: 700;
-    font-family: var(--robota);
+}
+
+.design-title a{
+    color: var(--dark);
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: var(--playfair);
+
 }
